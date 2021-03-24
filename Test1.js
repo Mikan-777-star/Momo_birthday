@@ -18,7 +18,19 @@ function next(){
         break;
         case 8: s += '<h1>不穏回その２</h1><img src="momo26.png" class="img"><h4>ごろごろにゃーちゃん誕生の瞬間である</h4><img src="momo27.png" class="img"><h4>魔力修行の時のやつ　かわいいね</h4><img src="momo28.png" class="img"><h4>家に誘うシャミ子</h4><img src="momo29.png" class="img"><h4>また嫌な夢を見ないでほしい（切実）</h4><img src="momo30.png" class="img"><h4>シャミ子が悪いんだよ</h4>'
         break;
-
+        case 9: s += '<h1>いつものが戻ってきたね</h1><img src="momo31.png" class="img"><h4>通い妻ぞく</h4><img src="momo32.png" class="img"><h4>鉱山車両のタイヤ（ブリヂストンも認めた）</h4><img src="momo33.png" class="img"><h4>めっちゃキラキラやな</h4><img src="momo34.png" class="img"><h4>ここ好き</h4>'
+        break;
+        case 10:s += '<h1>ママ回（暴走寸前）</h1><img src="momo35.png" class="img"><h4>修羅場不可避</h4><img src="momo36.png" class="img"><h4>ほんとに何があった</h4><img src="momo37.png" class="img"><h4>はじけた！</h4><img src="momo38.png" class="img"><h4>ごはん兵器製造工場</h4>'
+        break;
+        case 11:s += '<h1>修羅場</h1><img src="momo39.png" class="img"><h4>あそーれ！キース！キース！</h4><img src="momo40.png" class="img"><h4>ニコニコ水族館（🐡だけ）</h4><img src="momo41.png" class="img"><h4>はらぐろもんも</h4><img src="momo42.png" class="img"><h4>修羅場不可避</h4>'
+        break;
+        case 12:s += '<h1>桃の家回</h1><img src="momo43.png" class="img"><h4>もんもぉ…</h4><img src="momo44.png" class="img"><h4>シャミ子が悪いんだよ（2度目）</h4><img src="momo45.png" class="img"><h4>ジャンクなお昼を過ごしているな！</h4><img src="momo46.png" class="img"><h4>両親に結婚することを伝えにきたシャミ桃（違う）</h4>'
+        break;
+        case 13:s += '<h1>シリアス回</h1><img src="momo47.png" class="img"><h4>アンジャッシュ状態ってやつ</h4><img src="momo48.png" class="img"><h4>シャミ子の宿敵</h4><img src="momo49.png" class="img"><h4>シャミ子「私は桃の宿敵です」</h4><img src="momo50.png" class="img"><h4>シャミ子「私の眷属になってください！」</h4>'
+        break;
+        case 14:s += '<h1>シリアス回</h1><img src="momo51.png" class="img"><h4>私がこれから何をしても、今まで何をしていても、変わらずにいてくれる？</h4><img src="momo52.png" class="img"><h4>二人の象徴</h4><img src="momo53.png" class="img"><h4>まだちぎれないみたいだね</h4><img src="momo54.png" class="img"><h4>浮かれフルーツポンチ</h4>'
+        break;
+        default:page = 0;
     }
     s += '<br><a href="javascript:void(0)" onclick="next()">next</a></main>'
     document.getElementById('body').innerHTML = s;
